@@ -1,0 +1,34 @@
+{
+  "register": [
+    {
+      "id": 2,
+      "name": "Greisly",
+      "last": "suarez",
+      "phone": "31"
+    },
+    {
+      "id": 4,
+      "name": "zulay",
+      "last": "canchica",
+      "phone": "2932-678786657"
+    },
+    {
+      "name": "humberto",
+      "last": "suarez",
+      "phone": "3479939986",
+      "id": 5
+    },
+    {
+      "name": "yulieska",
+      "last": "zambrano",
+      "phone": "3479939986",
+      "id": 6
+    },
+    {
+      "name": "pablo",
+      "last": "zambrano",
+      "phone": "123943094",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+.backdrop {
+
+
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+
+.contenti{
+
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    position: fixed;
+    top: 30vh;
+    left:10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+
+}
+
+.header{
+
+    padding: 10px;
+
+}
+
+.title{
+
+    margin:0 ;
+    text-align: center;
+}
+
+.body {
+
+    padding: 10px;
+    border-top: 1 px solid #eee;
+    border-bottom: 1 px solid #eee;
+    text-align: center;
+}
+
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+@media (min-width: 768px) {
+    .contenti {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }
