@@ -1,6 +1,6 @@
 import React, { useRef, useContext } from 'react';
 import MyContext from '../Store/MyContext'
-import { Button, Form, Container, Row,Col } from 'react-bootstrap';
+import { Button, Form, Container, Row,Col } from 'react-git';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function FormAdd() {
@@ -11,19 +11,6 @@ function FormAdd() {
     const lastRef = useRef()
     const phoneRef = useRef()
 
-
-    // const fetchPot = async (data) => {
-
-    //     const response = await fetch("http://localhost:3500/register", {
-    //         method: "POST",
-    //         body: JSON.stringify(data),
-    //         headers: { 'content-type': 'application/json' }
-
-    //     });
-    //     const dataRegister = await response.json()
-    //     return dataRegister;
-
-    // }
 
     const handleAdd = (event) => {
         event.preventDefault();
@@ -114,39 +101,6 @@ function FormAdd() {
                 </div>
             </form>
 
-            {/* <div>
-                <Container>
-                    <Row>
-
-                        <Col lg="6">
-                        <Col md="auto" >
-                        <Col lg="6">
-                    <Form>
-                        <Form.Group className="mb-2" controlId="formBasicEmail" >
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
-                                We'll never share your email with anyone else.
-                            </Form.Text>
-                        </Form.Group>
-
-                        <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" />
-                        </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                            <Form.Check type="checkbox" label="Check me out" />
-                        </Form.Group>
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
-                    </Col>
-                    </Col>
-                    </Col>
-                    </Row>
-                </Container>
-            </div> */}
         </div>
     )
 }
